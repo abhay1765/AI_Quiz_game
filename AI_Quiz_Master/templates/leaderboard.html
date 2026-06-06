@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Leaderboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="dashboard-page">
+  <section class="dashboard-card glass-card">
+    <h1>Leaderboard</h1>
+
+<table class="leaderboard-table">
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>User</th>
+      <th>Best Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in board %}
+    <tr>
+      <td>{{ row.rank }}</td>
+      <td>{{ row.username }}</td>
+      <td>{{ row.best_score }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class="dashboard-actions">
+  <a href="/dashboard" class="btn-ghost">Back to Dashboard</a>
+  <a href="/profile" class="btn-ghost">Profile</a>
+</div>
+
+  </section>
+</div>
+
+</body>
+</html>

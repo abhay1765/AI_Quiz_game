@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<h1>Quiz Challenge</h1>
+
+<div id="timer">30</div>
+
+<form id="quizForm" action="{{ url_for('submit_quiz') }}" method="post">
+  <input type="hidden" name="time_taken" id="time_taken_input" value="0">
+
+{% for q in questions %}
+
+<div class="quiz-card">
+  <h3>Question {{ loop.index }}: {{ q.question }}</h3>
+  <div class="quiz-options">
+    {% for option in q.options %}
+      <label class="quiz-option">
+        <input type="radio" name="answer_{{ q.id }}" value="{{ option }}" required>
+        {{ option }}
+      </label>
+    {% endfor %}
+  </div>
+</div>
+
+{% endfor %}
+
+<button type="submit" class="btn-primary">Submit Quiz</button>
+
+</form>
+
+<script>
+  document.getElementById('quizForm').addEventListener('submit', function() {
+    const timer = document.getElementById('timer');
+    const hidden = document.getElementById('time_taken_input');
+    hidden.value = 30 - Number(timer.textContent || 0);
+  });
+</script>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

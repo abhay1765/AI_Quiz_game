@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="dashboard-page">
+  <section class="dashboard-card glass-card">
+    <h1>Quiz Dashboard</h1>
+
+    <p>Total Games: {{ stats.total_quizzes }}</p>
+    <p>Average Accuracy: {{ stats.average_accuracy }}%</p>
+    <p>Skill Level: {{ stats.skill_level }}</p>
+
+    <div class="dashboard-actions">
+      <form action="/quiz/start" method="POST">
+        <input type="hidden" name="category" value="">
+        <button type="submit" class="btn-primary">Start Quiz</button>
+      </form>
+      <a href="/leaderboard" class="btn-ghost">Leaderboard</a>
+      <a href="/profile" class="btn-ghost">Profile</a>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>

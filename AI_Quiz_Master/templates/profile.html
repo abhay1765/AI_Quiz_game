@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="dashboard-page">
+  <section class="dashboard-card glass-card">
+    <h1>{{ user.username }}</h1>
+
+    <p>Email: {{ user.email }}</p>
+    <p>Total Quizzes: {{ stats.total_quizzes }}</p>
+    <p>Average Accuracy: {{ stats.average_accuracy }}%</p>
+
+    <div class="dashboard-actions">
+      <a href="/dashboard" class="btn-ghost">Back to Dashboard</a>
+      <a href="/leaderboard" class="btn-ghost">Leaderboard</a>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+id,question,option1,option2,option3,option4,answer,category,difficulty
+1,What does AI stand for?,Automated Intelligence,Artificial Intelligence,Advanced Integration,Algorithmic Interface,Artificial Intelligence,Artificial Intelligence,easy
+2,Which of the following is a subfield of AI?,Database Management,Natural Language Processing,Network Security,Cloud Hosting,Natural Language Processing,Artificial Intelligence,easy
+3,What is the Turing Test designed to evaluate?,Speed of computation,Machine's ability to exhibit intelligent behavior,Storage capacity,Network bandwidth,Machine's ability to exhibit intelligent behavior,Artificial Intelligence,easy
+4,Which AI technique mimics the human brain?,Rule-Based Systems,Decision Trees,Neural Networks,Expert Systems,Neural Networks,Artificial Intelligence,medium
+5,What is Computer Vision in AI?,Teaching computers to interpret images,Managing computer graphics,Creating 3D animations,Designing computer screens,Teaching computers to interpret images,Artificial Intelligence,easy
+6,What is a Chatbot?,A physical robot,An AI conversational program,A type of virus,A network protocol,An AI conversational program,Artificial Intelligence,easy
+7,What does NLP stand for in AI?,Network Layer Protocol,Natural Language Processing,Numerical Learning Process,Node Link Pattern,Natural Language Processing,Artificial Intelligence,easy
+8,Which company developed ChatGPT?,Google,Meta,OpenAI,Microsoft,OpenAI,Artificial Intelligence,easy
+9,What is the purpose of a knowledge base in AI?,Store raw data,Represent structured knowledge for reasoning,Process images,Handle network requests,Represent structured knowledge for reasoning,Artificial Intelligence,medium
+10,What is Reinforcement Learning?,Learning from labeled data,Learning by trial and error with rewards,Unsupervised clustering,Transfer of knowledge between models,Learning by trial and error with rewards,Artificial Intelligence,medium
+11,What is an expert system?,A high-performance computer,A software that mimics human expert decision-making,A database system,A type of neural network,A software that mimics human expert decision-making,Artificial Intelligence,medium
+12,What is the main goal of Artificial General Intelligence (AGI)?,Automate repetitive tasks,Create AI that can perform any intellectual task a human can,Improve search algorithms,Optimize database queries,Create AI that can perform any intellectual task a human can,Artificial Intelligence,hard
+13,What is the Frame Problem in AI?,Formatting data correctly,Representing changing knowledge efficiently,Rendering frames in video,Network packet framing,Representing changing knowledge efficiently,Artificial Intelligence,hard
+14,What is Fuzzy Logic?,Boolean logic extension,Logic dealing with approximate reasoning,Cryptographic technique,Data compression method,Logic dealing with approximate reasoning,Artificial Intelligence,hard
+15,Which algorithm is used in game-playing AI like chess?,Gradient Descent,Backpropagation,Minimax,K-Means,Minimax,Artificial Intelligence,hard
+16,What is Machine Learning?,Programming computers explicitly,Teaching computers to learn from data,A type of hardware,Network management,Teaching computers to learn from data,Machine Learning,easy
+17,What is supervised learning?,Learning without labels,Learning with labeled training data,Reinforcement with rewards,Self-organized clustering,Learning with labeled training data,Machine Learning,easy
+18,What is unsupervised learning?,Learning from labeled data,Learning patterns from unlabeled data,Online learning,Transfer learning,Learning patterns from unlabeled data,Machine Learning,easy
+19,What is overfitting in ML?,Model performs poorly on training data,Model performs well on training but poorly on new data,Model trains too slowly,Model uses too little memory,Model performs well on training but poorly on new data,Machine Learning,medium
+20,What is a feature in ML?,A bug in the code,An input variable used for prediction,The output result,A type of algorithm,An input variable used for prediction,Machine Learning,easy
+21,What does cross-validation do?,Validates database records,Assesses model generalization by splitting data,Checks code syntax,Compresses model size,Assesses model generalization by splitting data,Machine Learning,medium
+22,What is gradient descent?,A hiking technique,An optimization algorithm to minimize loss,A data sorting method,A type of activation function,An optimization algorithm to minimize loss,Machine Learning,medium
+23,What is a confusion matrix?,A puzzling dataset,A table showing prediction vs actual values,A type of neural network,An encryption matrix,A table showing prediction vs actual values,Machine Learning,medium
+24,What is precision in ML evaluation?,The total accuracy,True positives divided by all positive predictions,Total correct predictions,Speed of prediction,True positives divided by all positive predictions,Machine Learning,hard
+25,What is the bias-variance tradeoff?,Memory vs speed,Error from wrong assumptions vs sensitivity to training data,CPU vs GPU,Training vs testing,Error from wrong assumptions vs sensitivity to training data,Machine Learning,hard
+26,Which algorithm is best for classification with clear margin?,Decision Tree,K-Means,Support Vector Machine,Linear Regression,Support Vector Machine,Machine Learning,hard
+27,What is ensemble learning?,Using a single model,Combining multiple models to improve performance,Clustering data,Reducing features,Combining multiple models to improve performance,Machine Learning,medium
+28,What is the purpose of regularization in ML?,Speed up training,Prevent overfitting by penalizing complexity,Increase model complexity,Handle missing data,Prevent overfitting by penalizing complexity,Machine Learning,hard
+29,What is a hyperparameter?,A parameter learned during training,A parameter set before training begins,An output variable,A type of neuron,A parameter set before training begins,Machine Learning,medium
+30,What does ROC curve measure?,Model training speed,Tradeoff between true positive rate and false positive rate,Memory usage,Feature importance,Tradeoff between true positive rate and false positive rate,Machine Learning,hard
+31,What is Python primarily used for?,Web browsing,General-purpose programming,Hardware design,Networking only,General-purpose programming,Python Programming,easy
+32,Who created Python?,James Gosling,Guido van Rossum,Dennis Ritchie,Bjarne Stroustrup,Guido van Rossum,Python Programming,easy
+33,What is a list in Python?,An immutable sequence,A mutable ordered collection,A key-value store,An unordered set,A mutable ordered collection,Python Programming,easy
+34,What does len() do in Python?,Sorts a list,Returns the length of an object,Converts to string,Prints output,Returns the length of an object,Python Programming,easy
+35,What is a Python dictionary?,An ordered list,A key-value pair collection,A set of unique items,A binary tree,A key-value pair collection,Python Programming,easy
+36,What is the output of type(3.14)?,int,float,str,double,float,Python Programming,easy
+37,Which keyword is used to define a function in Python?,function,def,func,define,def,Python Programming,easy
+38,What is a lambda function?,A regular function,An anonymous single-expression function,A recursive function,A class method,An anonymous single-expression function,Python Programming,medium
+39,What does __init__ do in a Python class?,Imports modules,Initializes object attributes,Ends the program,Defines class methods,Initializes object attributes,Python Programming,medium
+40,What is list comprehension in Python?,A way to document lists,A concise way to create lists using expressions,A sorting algorithm,A debugging technique,A concise way to create lists using expressions,Python Programming,medium
+41,What is the GIL in Python?,Global Input Lock,Global Interpreter Lock,General Interface Layer,Graphics Integration Library,Global Interpreter Lock,Python Programming,hard
+42,What does the yield keyword do in Python?,Returns a value,Creates a generator function,Pauses execution permanently,Imports a module,Creates a generator function,Python Programming,hard
+43,What is a decorator in Python?,A UI component,A function that modifies another function behavior,A type of loop,A data structure,A function that modifies another function behavior,Python Programming,hard
+44,What is the difference between deepcopy and copy?,No difference,deepcopy copies nested objects copy is shallow,copy is faster,deepcopy is for lists only,deepcopy copies nested objects copy is shallow,Python Programming,hard
+45,Which Python module is used for regular expressions?,re,regex,string,pattern,re,Python Programming,medium
+46,What is Cloud Computing?,Physical server management,Delivering computing services over the internet,Local area networking,Database administration,Delivering computing services over the internet,Cloud Computing,easy
+47,What does IaaS stand for?,Internet as a Service,Infrastructure as a Service,Integration as a Service,Interface as a Service,Infrastructure as a Service,Cloud Computing,easy
+48,Which company offers AWS?,Microsoft,Google,Amazon,IBM,Amazon,Cloud Computing,easy
+49,What is a Virtual Machine?,A physical computer,Software emulation of a computer system,A cloud database,A network protocol,Software emulation of a computer system,Cloud Computing,easy
+50,What does SaaS stand for?,Storage as a Service,Software as a Service,Security as a Service,Server as a Service,Software as a Service,Cloud Computing,easy
+51,What is auto-scaling in cloud?,Manual server addition,Automatically adjusting resources based on demand,Data backup process,Security scanning,Automatically adjusting resources based on demand,Cloud Computing,medium
+52,What is a CDN?,Cloud Database Network,Content Delivery Network,Central Data Node,Compressed Data Network,Content Delivery Network,Cloud Computing,medium
+53,What is serverless computing?,Removing all servers,Running code without managing servers,A local computing model,An offline system,Running code without managing servers,Cloud Computing,medium
+54,What is multi-tenancy in cloud?,Multiple physical servers,Multiple customers sharing the same infrastructure,Many network connections,Multiple databases,Multiple customers sharing the same infrastructure,Cloud Computing,medium
+55,What is cloud bursting?,Cloud failure scenario,Overflow from private to public cloud when demand spikes,Data migration,Security breach,Overflow from private to public cloud when demand spikes,Cloud Computing,hard
+56,What is a microservice architecture?,A small computer,Breaking an app into small independent services,A database pattern,A UI framework,Breaking an app into small independent services,Cloud Computing,hard
+57,What is Kubernetes used for?,Database management,Container orchestration,Network routing,Code compilation,Container orchestration,Cloud Computing,hard
+58,What is the CAP theorem?,Compression Algorithm Protocol,Consistency-Availability-Partition tolerance tradeoffs,Cloud Access Protocol,Cache Alignment Policy,Consistency-Availability-Partition tolerance tradeoffs,Cloud Computing,hard
+59,What does PaaS provide?,Physical hardware,Platform for developing and deploying applications,Only storage,Only networking,Platform for developing and deploying applications,Cloud Computing,medium
+60,What is a hybrid cloud?,Only public cloud,Combination of private and public cloud,Only private cloud,A cloud with multiple databases,Combination of private and public cloud,Cloud Computing,medium
+61,What does CPU stand for?,Central Processing Unit,Computer Processing Utility,Core Processing Unit,Central Program Utility,Central Processing Unit,Computer Science,easy
+62,What is an algorithm?,A programming language,A step-by-step problem-solving procedure,A type of hardware,A database,A step-by-step problem-solving procedure,Computer Science,easy
+63,What is RAM?,Read-Only Memory,Random Access Memory,Rapid Access Module,Remote Access Memory,Random Access Memory,Computer Science,easy
+64,What is a binary number system?,Base 10,Base 2,Base 8,Base 16,Base 2,Computer Science,easy
+65,What is an operating system?,Application software,Software managing hardware and software resources,A programming language,A network device,Software managing hardware and software resources,Computer Science,easy
+66,What is a stack data structure?,First In First Out,Last In First Out,Random access,Sorted list,Last In First Out,Computer Science,medium
+67,What is Big O notation?,A type of algorithm,A measure of algorithm time and space complexity,A programming pattern,A database query,A measure of algorithm time and space complexity,Computer Science,medium
+68,What is a binary search tree?,A tree with binary data,A tree where left < root < right for all nodes,A balanced tree,A hash table,A tree where left < root < right for all nodes,Computer Science,medium
+69,What is dynamic programming?,Programming with variables,Solving problems by breaking into subproblems and caching results,A design pattern,A hardware technique,Solving problems by breaking into subproblems and caching results,Computer Science,hard
+70,What is a deadlock in OS?,A software crash,A situation where processes wait forever for each other,A network timeout,Memory overflow,A situation where processes wait forever for each other,Computer Science,hard
+71,What is the average time complexity of QuickSort?,O(n),O(n log n),O(n squared),O(log n),O(n log n),Computer Science,hard
+72,What is virtual memory?,RAM extension,Using disk space to extend apparent RAM,A virtual CPU,Cloud memory,Using disk space to extend apparent RAM,Computer Science,hard
+73,What is a hash collision?,Two identical hashes,Two different keys producing the same hash value,A network error,A database conflict,Two different keys producing the same hash value,Computer Science,hard
+74,What is TCP/IP?,A programming language,A set of communication protocols for the internet,An operating system,A database model,A set of communication protocols for the internet,Computer Science,medium
+75,What is recursion in programming?,A loop construct,A function that calls itself,An array operation,A sorting technique,A function that calls itself,Computer Science,medium
+76,What planet is closest to the Sun?,Earth,Venus,Mercury,Mars,Mercury,General Knowledge,easy
+77,What is the largest ocean on Earth?,Atlantic,Indian,Arctic,Pacific,Pacific,General Knowledge,easy
+78,Who painted the Mona Lisa?,Vincent van Gogh,Pablo Picasso,Leonardo da Vinci,Michelangelo,Leonardo da Vinci,General Knowledge,easy
+79,What is the chemical formula for water?,H2O2,HO,H2O,OH,H2O,General Knowledge,easy
+80,How many continents are there on Earth?,5,6,7,8,7,General Knowledge,easy
+81,What is the capital of France?,London,Berlin,Paris,Rome,Paris,General Knowledge,easy
+82,What is the approximate speed of light?,300 km/s,3000 km/s,300000 km/s,30000 km/s,300000 km/s,General Knowledge,easy
+83,Which element has the atomic number 1?,Helium,Oxygen,Carbon,Hydrogen,Hydrogen,General Knowledge,easy
+84,What does DNA stand for?,Deoxyribonucleic Acid,Dynamic Nuclear Acid,Dual Neutron Array,Deoxynitrogen Acid,Deoxyribonucleic Acid,General Knowledge,medium
+85,Who wrote Romeo and Juliet?,Charles Dickens,William Shakespeare,Mark Twain,Jane Austen,William Shakespeare,General Knowledge,easy
+86,What is photosynthesis?,Animal respiration,Process by which plants make food using sunlight,Water cycle process,Rock formation process,Process by which plants make food using sunlight,General Knowledge,medium
+87,How many bones are in the adult human body?,186,206,226,246,206,General Knowledge,medium
+88,What is the largest planet in our solar system?,Saturn,Neptune,Uranus,Jupiter,Jupiter,General Knowledge,easy
+89,What year did World War II end?,1943,1944,1945,1946,1945,General Knowledge,medium
+90,What is the Pythagorean theorem?,a + b = c,a squared + b squared = c squared,a times b = c,a squared minus b squared = c,a squared + b squared = c squared,General Knowledge,medium
+91,What is the powerhouse of the cell?,Nucleus,Mitochondria,Ribosome,Golgi Apparatus,Mitochondria,General Knowledge,easy
+92,Which country has the largest population?,USA,India,Russia,China,China,General Knowledge,easy
+93,What is the hardest natural substance?,Gold,Iron,Diamond,Quartz,Diamond,General Knowledge,easy
+94,What is the boiling point of water at sea level?,90C,95C,100C,105C,100C,General Knowledge,easy
+95,How many sides does a hexagon have?,5,6,7,8,6,General Knowledge,easy
+96,What is the study of earthquakes called?,Meteorology,Geology,Seismology,Volcanology,Seismology,General Knowledge,medium
+97,Which gas makes up most of Earth's atmosphere?,Oxygen,Carbon Dioxide,Argon,Nitrogen,Nitrogen,General Knowledge,medium
+98,What is the largest mammal?,Elephant,Blue Whale,Giraffe,Hippopotamus,Blue Whale,General Knowledge,easy
+99,What is the currency of Japan?,Won,Yuan,Yen,Rupee,Yen,General Knowledge,easy
+100,In what year was the internet publicly launched?,1983,1989,1991,1995,1991,General Knowledge,medium
